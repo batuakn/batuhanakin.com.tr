@@ -16,15 +16,15 @@ if(isset($_POST['email'])) {
  
  
     // validation expected data exists
-    if(!isset($_POST['name']) ||
-        !isset($_POST['email']) ||) {
+    if(!isset($_POST['f_name']) ||
+        !isset($_POST['f_email']) ||) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
  
      
  
-    $name = $_POST['name']; // required
-    $email = $_POST['email']; // required
+    $name = $_POST['f_name']; // required
+    $email = $_POST['f_email']; // required
  
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -53,8 +53,8 @@ if(isset($_POST['email'])) {
  
      
  
-    $email_message .= "First Name: ".clean_string($name)."\n";
-    $email_message .= "Email: ".clean_string($email)."\n";
+    $email_message .= "First Name: ".clean_string($f_name)."\n";
+    $email_message .= "Email: ".clean_string($f_email)."\n";
  
 // create email headers
 $headers = 'From: '.$email."\r\n".
