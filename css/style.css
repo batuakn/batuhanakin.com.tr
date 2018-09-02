@@ -27,7 +27,7 @@ body{
 
 .card{
    height: auto;
-	max-height:299px;
+	max-height:400px;
 	width: 200px; /* ⬅ Size ~ Small (width: 200px), Medium (width: 225px), Large (width: 250px) */
 	overflow: hidden;
 	background-color: #FFFFFF;
