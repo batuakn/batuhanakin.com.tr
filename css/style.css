@@ -58,7 +58,7 @@ body{
 }
 
 	.c_01 .card_Banner{
-		background-image: url("img/profil.png");
+				background-image: url("https://images.unsplash.com/photo-1535106356142-e3169a8b17d2?ixlib=rb-0.3.5&s=0fce1e3c86e04e07abf7305a6fbfaf01&auto=format&fit=crop&w=668&q=80");
 	}
 
 .card_Avatar{
@@ -74,7 +74,6 @@ body{
 }
 
 	.c_01 .card_Avatar{
-		/* ⬇ Image from Twitter (___@cabrown___) */
 		background-image: url("img/profil.png");
 	}
 
